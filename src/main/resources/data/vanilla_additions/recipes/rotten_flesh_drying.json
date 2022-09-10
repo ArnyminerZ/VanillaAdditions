@@ -1,0 +1,7 @@
+{
+  "type": "vanilla_additions:drying_recipe",
+  "input": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "output": "minecraft:leather"
+}

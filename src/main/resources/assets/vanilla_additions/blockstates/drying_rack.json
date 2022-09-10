@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "vanilla_additions:block/drying_rack", "uvlock": true },
+    "facing=east":  { "model": "vanilla_additions:block/drying_rack", "y":  90, "uvlock": true },
+    "facing=south": { "model": "vanilla_additions:block/drying_rack", "y": 180, "uvlock": true },
+    "facing=west":  { "model": "vanilla_additions:block/drying_rack", "y": 270, "uvlock": true }
+  }
+}

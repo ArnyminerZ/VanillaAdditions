@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "vanilla-additions",
+  "version": "${version}",
+  "name": "Vanilla Additions",
+  "description": "A mod that adds small utilities to the vanilla experience of Minecraft.",
+  "authors": [
+    "ArnyminerZ"
+  ],
+  "contact": {
+    "website": "https://github.com/ArnyminerZ/VanillaAdditions",
+    "repo": "https://github.com/ArnyminerZ/VanillaAdditions.git"
+  },
+  "license": "MIT",
+  "icon": "assets/vanilla-additions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.arnyminerz.minecraft.vanillaadditions.client.VanillaAdditionsClient"
+    ],
+    "main": [
+      "com.arnyminerz.minecraft.vanillaadditions.VanillaAdditions"
+    ]
+  },
+  "mixins": [
+    "vanilla-additions.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
